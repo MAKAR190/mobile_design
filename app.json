@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "mobile_design",
+    "slug": "mobile_design",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/fruits.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/fruits.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "mobiledesignmaklut"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/fruits.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.maklut.mobile_design"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/fruits.png"
+    },
+    "plugins": ["expo-router"],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "1ea76e8c-5ad9-431d-b2fd-7aebec0af86e"
+      }
+    }
+  }
+}
